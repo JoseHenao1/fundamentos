@@ -3,44 +3,55 @@
 
 \renewcommand\thefootnote{\textcolor{red}{\arabic{footnote}}}
 
-\title{Git \& GitHub}
-\author{\\\\ José David Henao Gallego}
+\title{\LARGE \bf
+    Git \& GitHub
+}
+
+\author{\\\\ Cristian Camilo Serna Betancur  \\\\
+Marfa Alejandra Kleber Sierra \\\\ José David Henao Gallego}
 
 \begin{document}
 \maketitle
 \tableofcontents
 
 \section{Git}
-Git es un sistema de control de versiones distribuidas de código abierto y libre
-de diseñado para manejar todo, desde proyectos pequeños hasta muy grandes con
-velocidad y eficiencia. Fue creado por Linus Torvalds en 2005 para el desarrollo
-de la Con otros desarrolladores de kernel contribuyendo a su  Desarrollo. Desde
-2005, Junio Hamano ha sido el mantenedor central de.
+Git es un sistema de control de versiones distribuidas de código abierto y 
+libre diseñado para manejar todo, desde proyectos pequeños hasta muy grandes 
+con velocidad y eficiencia\cite{GIT:1}. Fue creado por Linus Torvalds en 2005 
+para el desarrollo del \emph{Kernel de Linux}, con otros desarrolladores del
+kernel contribuyendo a su  Desarrollo. Desde 2005, Junio Hamano ha sido el 
+mantenedor central\cite{GIT:2}.
 
 Nos permite leer la historia del proyecto, sus cambios y los pensamientos de la
-persona que trabajó en ellos , nota al pie de página, aunque a veces no
-escribimos buenos mensajes de confirmación, a veces no usamos más de una línea
-para comunicar ni nuestros pensamientos ni el propósito de nuestros cambios. Si
-algo anda mal, podemos usarlo para regresar en el momento en que todo estaba
-funcionando bien. Con Git podemos también etiquetar un estado específico de
-nuestro proyecto con un número de versión si pensamos que algunos trabajo está
-hecho, confiable y listo para usar.
+persona que trabajó en ello\footnote{Aunque a veces no escribimos buenos 
+mensajes de confirmación, a veces no usamos más de una línea para comunicar ni 
+nuestros pensamientos ni el propósito de nuestros cambios.}. Si algo anda mal, 
+podemos usarlo para regresar en el momento en que todo estaba funcionando bien. 
+Con Git podemos etiquetar un estado específico de nuestro proyecto con un 
+número de versión si pensamos que el actual estado del proyecto, es confiable y 
+esta listo para usar.
 
-\ section { Github }
-GitHub, Inc. es una corporación multinacional estadounidense que ofrece alojamiento para 
-desarrollo de software y control de versiones usando Git \ cite { GITHUB: 1 }. Tiene muchos
-características como pull request (PR), seguimiento de errores, administrador de tareas y wikis para 
-cada proyecto. Es uno de los proveedores de hosting más importantes de forma gratuita y
-proyectos de código abierto, ya que alberga proyectos muy importantes.
+\section{Github}
+GitHub, Inc. es una corporación multinacional estadounidense que ofrece 
+alojamiento para desarrollo de software y control de versiones usando Git
+\cite{GITHUB:1}. Tiene muchos características como pull request (PR), 
+seguimiento de errores, administrador de tareas y wikis para cada proyecto. Es 
+uno de los proveedores de hosting más importantes de proyectos de código 
+abierto, ya que alberga unos muy importantes\footnote{Un claro ejemplo es el
+\emph{Kernel de Linux}}.
 
-Con GitHub podemos mejorar nuestros propios proyectos y ayudar en diferentes, dando 
-recibir comentarios, informar problemas y compartir conocimientos e ideas. Nosotros podemos usar
-alojado servicios de integración continua como Travis CI con él que nos permite
-para probar y enviar nuestras aplicaciones con confianza \ cite { TRAVIS: 1 }.
+Con GitHub podemos mejorar nuestros propios proyectos y ayudar en diferentes, 
+dando y recibiendo comentarios, informando sobre problemas y compartiendo 
+conocimientos e ideas. 
 
-Git $ + $ GitHub nos ofrece una manera fácil de trabajar con muchas personas en el mismo proyecto
-\ footnote {Desde que aprendí a usar Git y GitHub (GitHub o GitLab o
-Bitbucket, a quién le importa) No he podido encontrar una forma diferente de trabajar con 
-más de una persona en el mismo proyecto.}, no importa si estamos en 
-diferentes países, podemos compartir nuestro código e ideas con todos en el mundo.
+Git $+$ GitHub nos ofrece una manera fácil de trabajar con muchas personas en 
+el mismo proyecto \footnote{Desde que aprendí a usar Git y GitHub (GitHub o 
+GitLab o Bitbucket, a quién le importa) No he podido encontrar una forma 
+diferente de trabajar con más de una persona en el mismo proyecto.}, no importa 
+si estamos en diferentes países, podemos compartir nuestro código e ideas con 
+todos en el mundo. 
+
+\bibliography{git-github}{}
+\bibliographystyle{plain}
+
 \end{document}
